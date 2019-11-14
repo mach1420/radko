@@ -13,5 +13,5 @@ def clicking():
     return redirect("/")
 
 
-
-app.run()
+if __name__ == "__main__": 
+    app.run()
